@@ -97,7 +97,7 @@ function cadastrar(){
 
         // TIMEOUT É UM ATRASO/DELAY
         setTimeout(()=>{
-            window.location.href = '/login.html'
+            window.location.href = './login.html'
         }, 4000 ) //4segundos
         
 
