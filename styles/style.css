@@ -1,0 +1,65 @@
+@import url(login.css);
+@import url(cadastro.css);
+@import url(inicio.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-fundo: #494C66;
+    --cor-titulo: #9398CC;
+    --cor--texto:#AEB4F2;
+    --tom-preto: #000;
+    --tom-branco: #fff;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75 ),rgba(0,0,0,0.75 )), url(../banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* CABEÇALHO UNIVERSAL*/
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 0;
+    background-color: var(--tom-preto);
+}
+
+.nav__titulo{
+    font-size: 2rem;
+    color: var(--tom-branco);
+}
+
+.nav__titulo span{
+    color: var(--cor-titulo);
+}
+
+ul{
+    display: flex;
+    gap: 1rem;
+}
+
+ul li{
+    
+    list-style: none;
+}
+
+li a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--tom-branco);
+}
+

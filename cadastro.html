@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="nav__titulo">Fael <span>Dev</span></h1>
+            <ul>
+                <li class="nav__itens"><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="primeiro">
+        <div class="card">
+            <h1>CADASTRO</h1>
+            <div class="mensagem mensagemerro" id="textoErro"></div>
+            <div class="mensagem mensagemcerto" id="textoSucesso"></div>
+
+            <div class="label">
+                <label id="labelNome" for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Nome de usuário" required>
+            </div>
+
+            <div class="label">
+                <label id="labelUsuario" for="usuario">Usuário</label>
+                <input type="text" id="usuario" placeholder="Usuario" required>
+            </div>
+
+            <div class="label">
+                <label id="labelSenha" for="senha">Senha</label>
+                <input type="password" id="senha" placeholder="Sua senha" required>
+                <span class="material-symbols-outlined">visibility</span>
+            </div>
+
+            <div class="label">
+                <label id="labelConfirmarSenha"  for="Confirmarsenha">Confirmar senha</label>
+                <input type="password" id="senhaConfirmar" placeholder="Confirmar senha" required>
+                <span class="material-symbols-outlined" id="confirmar">visibility</span>
+                
+            </div>
+            <div class="botao">
+            <button class="botao__login" type="submit" id="cadastro" onclick="cadastrar()">Cadastrar</button>
+            <h2 class="texto__para--cadastro">Ja tem cadastro?<a href="login.html"> Faça o login!</a></h2>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <script src="cadastro.js"></script>
+</body>
+</html>

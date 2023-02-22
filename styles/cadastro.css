@@ -1,0 +1,76 @@
+.primeiro{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 80vh;
+}
+
+
+.card{
+    border-radius: 15px;
+    width: 35rem;
+    height:40rem;
+    background: #0a0a0a46;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+}
+.card h1{
+    padding-bottom: 2rem;
+   text-align: center;
+   color: var(--cor-titulo);
+   font-size: 2rem;
+}
+
+.mensagem{
+    font-size: 20px;
+    color: var(--tom-branco);
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+.mensagemerro{
+    background-color: red;
+   
+}
+
+.mensagemcerto{
+    background-color: green;
+}
+
+.label{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.material-symbols-outlined{
+    color: var(--cor-titulo);
+    cursor: pointer;
+}
+
+.label label{
+    font-style: italic;
+    color: var(--tom-branco);
+    padding-left: 2rem;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+.label input{
+   
+   padding: 0.5rem 0 ;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

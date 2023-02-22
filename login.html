@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="nav__titulo">Fael <span>Dev</span></h1>
+            <ul>
+                <li class="nav__itens"><a href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+     <div class="principal">  
+        <div class="container">
+            <h1>Faça o seu<span> login</span> </h1>
+            <div class="login__itens">
+                <div id="erro"></div>
+             <h1>Digite aqui!</h1>
+                <div class="login login__usuario">
+                    <label id="labelLoginUsuario" for="usuario">Nome:</label>
+                    <input type="text" name="usuario" placeholder="Usuário" id="usuario">
+                </div>
+            <div class="login login__senha">
+                   <label id="labelLoginSenha" for="senha">Senha:</label>
+                   <input type="password" name="senha" placeholder="Sua senha" id="senha"><span class="material-symbols-outlined">visibility</span>
+                
+            </div>
+            
+            </div>
+            <input class="botao__login" type="submit" id="login" value="Login" onclick="logar()"></input>
+            <h2 class="texto__para--cadastro">Não tem um login? <a href="cadastro.html">Cadastre aqui!</a></h2>
+          </div>
+       </div>
+    </div> 
+    
+    </section>
+
+    <script src="login.js"></script>
+</body>
+</html>

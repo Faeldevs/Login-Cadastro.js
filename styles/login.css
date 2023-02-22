@@ -1,0 +1,116 @@
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.container{ 
+    border-radius: 15px;
+    width: 35rem;
+    height:40rem;
+    background: #0a0a0a46;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.container h1{
+    color: var(--cor-titulo);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.container span{
+    color: var(--tom-branco);
+}
+
+.login__itens h1{
+    color: var(--cor--texto);
+    text-align: center;
+    text-transform: none;
+    font-size: 1.5rem;
+    font-style: italic ;
+}
+
+/*  INPUT */
+.login{
+    display: flex;
+    justify-content: left;
+    gap: 1rem;
+    padding: 0.5rem 0;
+    align-items: center;
+}
+
+.login__usuario {
+    margin: 1rem 0 0 0;
+}
+
+.login label{
+    font-style: italic ;
+    color: var(--tom-branco);
+}
+
+.login input{
+    padding: 0.5rem 0;
+}
+
+input{
+    border-radius: 10px;
+}
+
+input::placeholder{
+    padding-left: 0.5rem;
+    color: var(--cor-fundo)
+}
+
+.material-symbols-outlined{
+    display: flex;
+    align-items: center;
+}
+/*-------------------------*/
+.botao__login{
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background: var(--cor-fundo);
+    color: var(--tom-branco);
+    border: none;
+    font-size: 20px;
+    font-style: italic ;
+}
+
+.botao__login:hover{
+    background: var(--cor-titulo);
+    color: var(--tom-branco);
+}
+
+.botao__login:active{
+    background: #AEB4F2;
+}
+
+.texto__para--cadastro{
+    padding: 2rem 0 0 0;
+    font-size: 1rem;
+    color:var(--cor-fundo);
+}
+
+.texto__para--cadastro a{
+    font-style: italic;
+    color: var(--cor--texto);
+}
+
+#erro{
+    text-align: center;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    font-size: 20px;
+    display: none;
+    font-style: italic;
+    background-color: #d00909a7;
+    color: rgb(255, 255, 255);
+}
